@@ -1,0 +1,1 @@
+Calculates the popular interview question FizzBuzz to the selected amount!
