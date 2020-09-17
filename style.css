@@ -36,17 +36,19 @@ label {
 }
 
 input {
+    padding-right: 85px;
+    padding: 3px;
     margin-top: 30px;
     width: 400px;
     height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(0, 0, 0, 0.75);
     font-size: 1.5rem;
 }
 
-button {
+.calc {
     margin-top: 30px;
     padding: 3px 150px;
-    border: 1px solid rgba(0, 0, 0, 0.75);
+    border: 2px solid rgba(0, 0, 0, 0.75);
     font-size: 1.5rem;
 }
 
@@ -54,10 +56,34 @@ button:hover {
     cursor: pointer;
 }
 
+.reset {
+    margin-left: -85px;
+    padding: 4px 10px;
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+}
+
 .res {
-    margin-top: 40px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
+}
+
+.res p {
+    margin: 5px 0;
+    font-size: 0.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.75);
+    width: 75px;
+    text-align: center;
+}
+
+.transitioned{
+    transition: all 0.8s;
+    font-size: 1.5rem !important;
+    width: 150px !important;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
 }
